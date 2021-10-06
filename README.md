@@ -5,7 +5,7 @@ Data Source Provided: <i><code>LoanStats_2019Q1.csv</code></i>
 
 ## Overview
 #### Machine Learning in Finance
-Credit risk is an inherently unbalanced classification problem due to the number of data points observed and weighed during application processing. The task of building a reliable credit evaluation process is of the utmost importance for modern lenders. Machine learning solutions are powerful for predicting credit worthiness, anticipating anomalies, and reducing risk.
+Credit risk is an inherently unbalanced classification problem due to the number of data points observed and weighed through application. The task of building a reliable credit evaluation process is of the utmost importance for modern lenders. Machine learning solutions are powerful for predicting credit worthiness, anticipating anomalies, and reducing risk.
 
 The dataset used for this evaluation is from LendingClub, a peer-to-peer lending services company.
 
