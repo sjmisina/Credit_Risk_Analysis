@@ -11,7 +11,7 @@ The dataset used for this machine language evaluation is from LendingClub, a pee
 
 ## Results
 #### Comparison of Models for Credit Decision
-When testing performace of these models, four primary measures are considered: accuracy, precision, recall, and processing time:
+When testing performace of these models, four primary measures are considered: accuracy, precision, recall, and processing time.
 - **Accuracy** is the ratio of correct predictions to the total number of input samples
 - **F1 score** is a simplified measure of model performance. It is a weighted harmonic mean of _precision_ and _recall_
   - _**Precision**_ is the ability of a classifier not to label an instance positive that is actually negative
@@ -24,6 +24,6 @@ We have chosen six models for comparison. The results for each present on a scal
 
 ## Summary
 #### Recommendations
-- Our recommended processing model is the **Easy Ensemble Adaptive Boost Classifier (EEABC)**. With an accuracy score of 0.93, a precision score of 0.99, a 0.94 recall score, and f1 of 0.97, this is the most accurate performer of the six tested; **_however_**, there is a caveat: processing time. When running multiple credit applications, 33 seconds per decision can be prohibitive for time sensitive processing.
+- Our recommended processing model is the **Easy Ensemble Adaptive Boost Classifier (EEABC)**. With an accuracy score of 0.93, and f1 of 0.97, this is the most accurate performer of the six tested; **_however_**, there is a caveat in processing time. When running multiple credit applications, 33 seconds per decision can be prohibitive during time sensitive processing.
 
-- A secondary recommendation is to use a two-tiered process by employing the **Balanced Random Forest Classifier (BRFC)** for fast primary processing which performed well (only 1.76 seconds per decision), precision (0.99), and f1 (0.93). Accuracy and recall are behind EEABC at .078 and 0.87 respectively. EEABC could be run as a secondary pipeline for turn down applications and approval auditing.
+- A secondary recommendation is to use a two-tiered process by employing the **Balanced Random Forest Classifier (BRFC)** for fast primary processing (only 1.76 seconds per decision) that performs well regarding precision (0.99), and f1 (0.93). Accuracy and recall are behind EEABC at .078 and 0.87 respectively. EEABC could be run as a secondary pipeline for turn down applications and approval auditing.
