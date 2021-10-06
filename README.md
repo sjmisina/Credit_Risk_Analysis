@@ -24,6 +24,6 @@ We have chosen six models for comparison. The results for each present on a scal
 
 ## Summary
 #### Recommendations
-- Our recommended processing model is the **Easy Ensemble Adaptive Boost Classifier (EEABC)**. With an accuracy score of 0.93, and f1 of 0.97, this is the most accurate performer of the six tested; **_however_**, there is a caveat in processing time. When running multiple credit applications, 33 seconds per decision can be prohibitive during time sensitive processing.
+- Our recommended processing model is the **Easy Ensemble Adaptive Boost Classifier (EEABC)**. With an accuracy score of 0.93, and f1 of 0.97, this is the most accurate performer of the six tested; **_however_**, there is a caveat in processing time. When running multiple credit applications, 33 seconds per decision can be prohibitive where time sensitity is important.
 
 - A secondary recommendation is to use a two-tiered process by employing the **Balanced Random Forest Classifier (BRFC)** for fast primary processing (only 1.76 seconds per decision) that performs well regarding precision (0.99), and f1 (0.93). Accuracy and recall are behind EEABC at .078 and 0.87 respectively. EEABC could be run as a secondary pipeline for turn down applications and approval auditing.
