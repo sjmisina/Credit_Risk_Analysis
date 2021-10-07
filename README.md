@@ -13,7 +13,7 @@ The dataset used for this evaluation is from LendingClub, a peer-to-peer lending
 #### Comparison of Models for Credit Decision
 When testing performace of these models, four primary measures are considered: accuracy, precision, recall, and processing time.
 - **Accuracy** is the ratio of correct predictions to the total number of input samples
-- **F1 score** is a simplified measure of model performance. It is a weighted harmonic mean of _precision_ and _recall_
+- **f1 score** is a simplified measure of model performance. It is a weighted harmonic mean of _precision_ and _recall_
   - _**Precision**_ is the ability of a classifier not to label an instance positive that is actually negative
   - _**Recall**_ is the ability of a model to find all positive instances
 -  **Processing time** is taken into consideration as the models all run at different rates of speed - this factor will be important when processing on a large-scale and considering service level expectations
