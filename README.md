@@ -16,7 +16,7 @@ When testing performace of these models, four primary measures are considered: a
 - **F1 score** is a simplified measure of model performance. It is a weighted harmonic mean of _precision_ and _recall_
   - _**Precision**_ is the ability of a classifier not to label an instance positive that is actually negative
   - _**Recall**_ is the ability of a model to find all positive instances
--  **Processing time** is taken into consideration as the models all run at different rates of speed. This factor will be important when large-scale processing and in considering service level expectation
+-  **Processing time** is taken into consideration as the models all run at different rates of speed. This factor will be important when processing on a large-scale and considering service level expectations
 
 #### Performance Metrics
 We have chosen six models for comparison. The results for each present on a scale of 0 to 1. Closer to one indicates better performance in the testing environment.
